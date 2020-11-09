@@ -28,7 +28,6 @@ function Sidebar() {
         ))
     }, [])
 
-
     return (
         <div className="sidebar">
             <div className="sidebar__header">
@@ -52,7 +51,7 @@ function Sidebar() {
             <hr />
             <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
-            <SidebarOption Icon={AddIcon} title="Add Channels" />
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add Channels" />
 
             {/* Connect to db and list all the channels */}
             {channels.map(channel => (
