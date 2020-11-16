@@ -1,7 +1,7 @@
 .sidebar {
     color: white;
     background-color: var(--slack-color);
-    border-top: 1px solid #49274b;
+    border-top: 1px solid #435EC9;
     max-width: 260px;
     flex: 0.3;
 }
@@ -9,12 +9,12 @@
 .sidebar > hr {
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid #49274b;
+    border: 1px solid #435EC9;
 }
 
 .sidebar__header {
     display: flex;
-    border-bottom: 1px solid #49274b;
+    border-bottom: 1px solid #435EC9;
     padding-bottom: 10px;
     padding: 13px;
 }
